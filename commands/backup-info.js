@@ -4,8 +4,6 @@ const { MessageEmbed } = require('discord.js')
  
 module.exports = {
     name: "backup-info",
-    description: "backup info",
-    permissions: ["ADMINISTRATOR"],
 
     run: async (client, message, args) => {
 

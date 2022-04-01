@@ -3,8 +3,6 @@ const backup = require("discord-backup");
 
 module.exports = {
   name: "backup-load",
-  description: "load backup",
-  permissions: ["ADMINISTRATOR"],
 
   run: async (client, message, args) => {
 

@@ -3,8 +3,6 @@ const config = require('../config.json')
 
 module.exports = {
     name: "backup-create",
-    description: "create backup",
-    permissions: ["ADMINISTRATOR"],
 
     run: async (client, message, args) => {
 
